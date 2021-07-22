@@ -1,0 +1,92 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+.security{
+  position: absolute;
+  right: 220px;
+  border-radius: 50px;
+}
+
+
+body{
+
+  background-image: linear-gradient(rgb(223, 249, 255), rgb(255, 255, 255));}
+
+#container{
+
+
+  padding: 20px 50px 50px 50px;
+text-align: center;
+opacity: 1;
+animation: fadeIn 5s ease;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+#tour-guide{
+  width: 20%;
+}
+
+
+
+#speechBubble{
+  border:2px solid black;
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px;
+ text-align: center;
+ width: 25%;
+ margin-left: 38%;
+ margin-bottom: 20px;
+}
+
+#btn{
+  margin-bottom: 20px;
+}
+
+#gif{
+width: 20%;
+}
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+
+    background-image: linear-gradient(rgb(223, 249, 255), rgb(255, 255, 255));}
+  
+  #btn{
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  
+  #gif{
+  width: 20%;
+  }
+
+ #tour-guide{
+  width: 80%;
+}
+
+
+
+#speechBubble{
+  border:2px solid black;
+  border-radius: 50px;
+  background-color: white;
+  padding: 10px;
+ text-align: center;
+ width: 55%;
+ margin-left: 20%;
+ margin-bottom: 20px;
+}
+}
